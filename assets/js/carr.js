@@ -1,3 +1,5 @@
+// Js del carrucel le agrega movilidad con los botones, ademas de agregarle movilidad automatica despues de X milisegundos
+
 const carouselSlide = document.querySelector('.carousel-slide');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
@@ -5,7 +7,7 @@ const nextBtn = document.querySelector('#nextBtn');
 const slides = document.querySelectorAll('.carousel-slide img');
 
 let counter = 0;
-const intervalTime = 5000; // Cambia este valor según el tiempo de intervalo en milisegundos
+const intervalTime = 5000; // valor del tiempo de intervalo en milisegundos
 let slideInterval;
 
 function nextSlide() {
