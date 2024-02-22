@@ -1,0 +1,63 @@
+
+
+/* header */
+
+/* barra de navegacion */
+
+
+/* carrucel */
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+ 
+  .carousel-slide img {
+    width: 100%;
+    display: none; /* Oculta todas las imágenes por defecto */
+  }
+  
+  .carousel-slide img:first-child {
+    display: block; /* Muestra solo la primera imagen */
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 2;
+    color: grey;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  
+
+
+/* Quienes somos */
+
+
+
+/* Destacados */
+
+
+
+/* Contacto */
+
+
+/* Footer */
