@@ -94,11 +94,42 @@ header img{
     font-size: 1.5em; /* Tamaño de fuente grande para los iconos */
 }
 
-.row {
+hr {
+    height: 20px;
+    background-color: black;
+  }
+
+
+/* Destacados */
+.destacados {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.destacados h1{
     margin-bottom: 40px;
 }
 
-/* Destacados */
+.destacados .card {
+    background-color: #00BFFF; /* Fondo celeste de las tarjetas */
+    color: white; /* Texto blanco dentro de las tarjetas */
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.card-img-top {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor */
+}
+.card{ 
+    cursor: pointer;
+}
 
 
 
