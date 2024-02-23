@@ -64,9 +64,39 @@ header img{
     overflow: hidden;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
+
+
+
 /* Quienes somos */
 
+.descripcion {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
 
+.descripcion h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.descripcion .container {
+    padding: 20px; /* Añadir espacio alrededor del contenido */
+}
+
+.icono-desc {
+    text-align: center; /* Centrar los iconos */
+    background-color: #00BFFF; /* Color celeste para los iconos */
+}
+.icono-desc i {
+    font-size: 1.5em; /* Tamaño de fuente grande para los iconos */
+}
+
+.row {
+    margin-bottom: 40px;
+}
 
 /* Destacados */
 
