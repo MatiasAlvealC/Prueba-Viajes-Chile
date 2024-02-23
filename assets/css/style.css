@@ -200,3 +200,44 @@ hr {
 
 
 /* Footer */
+
+footer {
+    background-color: #17A2B8; /* Fondo celeste */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content:center; /* Alinea los elementos a los extremos del contenedor */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+footer .social-icons {
+    margin-left:70%;
+}
+
+
+.social-icons {
+    font-size: 24px; /* Tamaño de los iconos */
+}
+
+.social-icons i {
+    margin-right: 10px; /* Espacio entre los iconos */
+}
+
+@media (max-width: 767.98px) {
+    footer .social-icons {
+        margin-left:20%;
+    }
+    .footer-content {
+        align-items:center; /* Centra verticalmente los elementos */
+    }
+}
+
+
