@@ -231,6 +231,16 @@ footer .social-icons {
     margin-right: 10px; /* Espacio entre los iconos */
 }
 
+.social-icons a {
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.social-icons a:hover {
+    color: inherit; /* Hereda el color del texto del elemento padre cuando se pasa el mouse sobre el enlace */
+}
+
+
 @media (max-width: 767.98px) {
     footer .social-icons {
         margin-left:20%;
